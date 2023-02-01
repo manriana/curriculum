@@ -30,11 +30,11 @@ function myFunction() {
   }
     
    function mostrarc(input) {
-    document.getElementById("ccentre").innerHTML = "Mis tareas en dicha institución era la realización de llamadas salientes para la venta de productos bancarios de forma telefonica.";
+    document.getElementById("ccentre").innerHTML = "Mis tareas en dicha institución era la realización de llamadas salientes para la venta de productos bancarios de forma telefónica.";
      }
 
    function mostrarp(input) {
-    document.getElementById("parisi").innerHTML ="Mis tareas en dicha institución era la realización de llamadas salientes para la venta de productos bancarios de forma telefonica.";
+    document.getElementById("parisi").innerHTML ="Me desempeñaba como asitente del dueño de la Pyme, realizaba tareas de atención a proveedores, fijación de precios control de stock y de recuadación.";
     
    }
 

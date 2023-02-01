@@ -130,7 +130,7 @@ topnav a.active {
 
 @media screen and (max-width: 768px) {
   #inicio {
-    height: 900px;
+    height: 800px;
     
          }
        }
@@ -237,16 +237,23 @@ h4 {
     font-size: 15px;
         }
     
+@media screen and (max-width: 400) {
+     #experiencia {
+      height: 2500px;
+     }
+  
+}
+
    @media screen and (max-width: 576px) {
       #experiencia {
-        height: 1500px;
+        height: 2000px;
       }
    }
         
 
 @media screen and (max-width: 768px) {
   #experiencia {
-    height: 800px;
+    height: 1100px;
     
   }
   }
@@ -254,7 +261,7 @@ h4 {
   @media screen and (max-width: 992px){
 
     #experiencia {
-      height:700px;
+      height:800px;
     }
   }
 
@@ -269,25 +276,39 @@ h4 {
       }
 
 #habi {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 20px;
     }
 
+@media screen and (max-widht: 400px) {
+    #habilidades {
+      height: 2000px;
+    }
+  
+}
 
 @media screen and (max-width: 576px) {
     #habilidades {
    
-    height: 1300px;
+    height: 1800px;
     
         } 
+    #habi {
+      padding-left: 5px;
+      padding-right: 5px;
+    }        
        }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     #habilidades {
-    height: 800px;
+    height: 1000px;
     align-content: center;
       }
+    #habi {
+      padding-left: 10px;
+      padding-right: 10px;
+    }  
       }    
 
  #contacto { 
